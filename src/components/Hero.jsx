@@ -1,5 +1,5 @@
 import styles from "../style";
-import { introsnake } from "../assets";
+import {introsnake} from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={introsnake} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+        <img src={introsnake} alt="introsnake" className="w-[100%] h-[100%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 black__gradient" />
